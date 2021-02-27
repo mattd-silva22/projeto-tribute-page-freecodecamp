@@ -1,0 +1,202 @@
+/* conf geral */
+*  {
+    margin: 0;
+    padding:0;
+    
+}
+
+
+
+body {
+    font-family: 'Cutive Mono', monospace;
+    margin: 0px;
+    background-color: #EAE7DC;
+    width: 100%;
+    
+}
+
+
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between ;
+    height: 8vh;
+
+    
+}
+#nav-lang {
+    color: blue;
+    order: 1;
+    line-height: 8vh;
+    margin-left: 15px;
+}
+
+ 
+
+
+/* nav-top */
+
+#nav-top {
+    order: 2;
+    font-size: 1.5em;
+    line-height: 8vh;
+    
+}
+
+#nav-top ul {
+    list-style:  none ;
+    margin-right: 25px;
+}
+
+
+#nav-top li {
+    display: inline;
+    margin: 25px;
+    list-style:  none ;
+    font-size: 1.2em;
+}
+
+#nav-top li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+
+#nav-top li a:hover {
+    color: red;
+    
+}
+/* img  */
+#div-img {
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+#div-img img {
+    width: 400px;
+    margin: 25px;
+} 
+#img-2, #img-3 {
+    margin: 0px auto;
+    text-align: center;
+}
+#img-2 img, #img-3 img{
+    width: 600px;
+    
+}
+
+.legenda-img {
+    font-size: 0.8em;
+}
+
+/*  titulo*/
+
+#title {
+    position: relative;
+    bottom: 120px;
+    font-size: 2em;
+}
+
+#title p.data {
+    font-size: 0.6em;
+}
+
+/* form paragrafos e titulo geral  */
+.bio-p {
+    text-align: justify ;
+    font-size: 1.2em;
+    margin: 30px;
+    padding: 5px;
+}
+
+#bio h2 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+
+/* footer */
+
+footer {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+
+#fontes {
+    order: 1;
+}
+
+/* form bio especif */
+
+#bio-quem, #bio-legado {
+    height: 100%;
+    width: 100%;
+    background-color: #d8c3a5;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+#bio-vida {
+    height: 100%;
+    width: 100%;
+    background-color: #EAE7DC;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+
+@media ( max-width: 600px) {
+    
+    #nav-lang {
+        color: blue;
+        order: 1;
+        line-height: 8vh;
+        margin-left: 5px;
+    }
+
+    /* nav-top */
+
+
+    #nav-top li {
+    margin: 5px;
+        }
+
+
+    #nav-top ul {
+    list-style:  none ;
+    margin-right: 0px;
+        }
+
+    
+    /* img */
+
+    
+    #img-2 img, #img-3 img{
+        width: 98%;
+        
+    }
+}
+
+@media (max-width: 450px) {
+    #nav-top {
+        background-color: red;
+    }
+    * {
+        border: 1px solid green;
+    }
+
+    
+    
+}
